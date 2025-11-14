@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.logo {
+  max-width: 80px;
+}
+.logo img {
+  width: 100%;
+}
+.carousel-item {
+  width: 100%;
+  height: 450px;
+}
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  object-fit: fill;
+}
+
+.card {
+  box-shadow: 29px 14px 28px 8px rgba(0, 0, 0, 0.3);
+}
+.container-fluid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.btn button {
+  background-color: rgb(78, 43, 143);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+  text-decoration: none;
+
+}
+
+
+.nav li {
+  cursor: pointer;
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(31, 2, 2);
+  
+
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  color: black;
+}
+.gall:focus {
+  color: rgb(31, 2, 2);
+}
+.fa-cart-arrow-down {
+  color: rgb(32, 2, 2);
+}
+.forms {
+  width: 50%;
+  margin: 30px auto;
+}
+.card:hover {
+  transition: 1s;
+  transform: scale(1.1);
+}
+.addTo:hover {
+  transition: 1s;
+  transform: scalex(1.3);
+}
+.whatsapp {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 60px;
+  bottom: 30px;
+  z-index: 10;
+  align-items: center;
+  cursor: pointer;
+}
+.whatsapp  img {
+  width: 100%;
+  cursor: pointer;
+}
+.whatsapp  h4 {
+  text-align: center;
+  color: rgb(20, 1, 1);
+  font-weight: bold;
+  font-size: 15px;
+
+}
+.nav{
+  display: flex ;
+  justify-content: left;
+  text-align: left;
+  align-items: center ;
+  gap: 20px ;
+
+
+}
+.price{
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(25, 3, 3);
+  display: inline-block;}
+.btn-primary{
+  display: inline-block;
+  margin-right: 10px;
+}
+.footer {
+  background: #111;
+  color: #130101;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.footer-content {
+  max-width: 900px;
+  margin: auto;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: #180101;
+  margin: 0 10px;
+  font-size: 24px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #011608; /* WhatsApp hover */
+
+}
+
